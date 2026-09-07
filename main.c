@@ -142,7 +142,7 @@ int main()
         {
             saveDoctors(doctors, docCount);
             savePatients(patients, patCount);
-            saveAppointments(appts, apptCount);
+            ssaveAppointments(appts, apptCount, doctors, docCount, patients, patCount);
             printf("Data saved. Goodbye!\n");
             break;
         }
