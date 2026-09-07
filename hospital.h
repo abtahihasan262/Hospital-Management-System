@@ -45,7 +45,10 @@ void loadPatients(Patient patients[], int *count);
 int bookAppointment(Appointment appts[], int apptCount, Doctor doctors[], int docCount, Patient patients[], int patCount);
 void viewAppointments(Appointment appts[], int apptCount, Doctor doctors[], int docCount, Patient patients[], int patCount);
 void cancelAppointment(Appointment appts[], int apptCount);
-void saveAppointments(Appointment appts[], int count);
+void saveAppointments(Appointment appts[], int count,
+                      Doctor doctors[], int docCount,
+                      Patient patients[], int patCount);
+void loadAppointments(Appointment appts[], int *count);
 void loadAppointments(Appointment appts[], int *count);
 
 void showSummary(Doctor doctors[], int docCount, Patient patients[], int patCount, Appointment appts[], int apptCount);
